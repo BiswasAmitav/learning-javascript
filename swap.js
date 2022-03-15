@@ -1,11 +1,11 @@
-// var a=5;
-// var b=7;
-// console.log("before wap: a =", a, "b=", b);
+var a=5;
+var b=7;
+console.log("before wap: a =", a, "b=", b);
 
-// var temp=a;
-// a=b;
-// b=temp;
-// console.log("After swap: a =", a, "b = ",b );
+var temp=a;
+a=b;
+b=temp;
+console.log("After swap: a =", a, "b = ",b );
 
 
 
