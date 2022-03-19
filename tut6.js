@@ -20,4 +20,4 @@ let element=document.getElementById('heading');
 let elems=document.getElementsByClassName('.child');
 elems=document.getElementsByClassName('.container');
 elems=document.getElementsByTagName('div';)
-console.log(elems)
+console.log(elems);
