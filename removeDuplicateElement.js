@@ -1,5 +1,10 @@
-var name=[3,2,5,64,7,6,7,35,74,67,84,464,474,474,32,34,34,45,3,4,56,74,464];
+var array=[2, 2, 3, 5, 6, 7];
 var uniqueName=[];
-for(var i=0; i<name.length;i++){
-
+for(var i=0; i<array.length; i++){
+    var element=array[i];
+    var index=uniqueName.indexOf(element);
+    if(index == -1){
+        uniqueName.push(element);
+    }
 }
+console.log(uniqueName);
