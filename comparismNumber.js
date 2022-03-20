@@ -42,7 +42,6 @@ for(var i = 0; i < marks.length;i++){
 
     // else{
     //     console.log();
-    // }
     
 }
 console.log("Highest value is : ",max);
