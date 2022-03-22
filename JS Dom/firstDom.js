@@ -26,3 +26,18 @@ var query=document.querySelector('.first h3');
 query.innerHTML="This is been changed by query selector";
 
 console.log(query);
+
+//THIS THE USE CASE OF QUERY SELECTORALL...
+
+var queryAll=document.querySelectorAll('.first h3');
+console.log(queryAll);
+
+for(var i=0;i<queryAll.length;i++){
+    var allH3=queryAll[i];
+    // console.log(allH3);
+    allH3.style.backgroundColor='yellow';
+    allH3.style.color='black';
+    allH3.style.textAlign='center'
+    allH3.innerHTML="this is changed by amit through query selectorAll";
+    console.log(allH3);
+}
