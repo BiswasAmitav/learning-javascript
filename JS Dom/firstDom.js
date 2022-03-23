@@ -53,3 +53,11 @@ var add=document.getElementById('add');
 const newParagraph=document.createElement('p');
 newParagraph.innerHTML=' this is added by javascript';
 add.appendChild(newParagraph);
+
+
+//HOW TO ADD LIST ITEM BY USING JAVASCRIPT...
+
+const ul=document.getElementById('gift-list');
+const newLi=document.createElement('li');
+newLi=innerHTML='hello i am gift 6 added by javascript';
+ul.appendChild(newLi);
