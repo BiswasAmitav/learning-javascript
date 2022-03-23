@@ -46,3 +46,10 @@ for(var i=0;i<queryAll.length;i++){
 
 var hover=document.querySelector('h3').setAttribute('title','You are the fist title');;
 console.log(hover);
+
+//NOW IN THIS CODE , I LEARNT HOW TO ADD TEXT INSIDE PARAGRAP..
+
+var add=document.getElementById('add');
+const newParagraph=document.createElement('p');
+newParagraph.innerHTML=' this is added by javascript';
+add.appendChild(newParagraph);
