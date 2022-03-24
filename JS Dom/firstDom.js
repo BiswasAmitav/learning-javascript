@@ -69,3 +69,6 @@ console.log("protap");
 console.log("abir");
 
 console.log("sohag & sajib");
+ console.log("baba");
+ console.log("ma");
+ 
