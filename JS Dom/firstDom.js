@@ -71,4 +71,6 @@ console.log("abir");
 console.log("sohag & sajib");
  console.log("baba");
  console.log("ma");
- 
+
+ var anamikasFrnd=['amit', 'rinku', 'roma'];
+ console.log(anamikasFrnd);
