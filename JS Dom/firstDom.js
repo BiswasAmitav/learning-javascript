@@ -63,3 +63,5 @@ newLi=innerHTML='hello i am gift 6 added by javascript';
 ul.appendChild(newLi);
 
 console.log("amitav");
+
+console.log("protap");
