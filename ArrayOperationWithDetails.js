@@ -106,6 +106,59 @@ console.log("hello amit");
 
 // JAVASCRIPT FILTERED METHOD
 
-const arr=[1,2,3,null,false,4,5,'','test',6,7,8];
-const filteredArray= arr.filter((v) =>typeof v=='number');
-console.log(filteredArray);
+// const arr=[1,2,3,null,false,4,5,'','test',6,7,8];
+// const filteredArray= arr.filter((v) =>typeof v=='number');
+// console.log(filteredArray);
+
+
+
+// const arr=[1,2,3,null,false,4,5,'','test',6,7,8];
+// const filteredArray = arr.filter(function (v){
+//     return typeof v=='number';
+// });
+// console.log(filteredArray);
+
+
+
+
+// const filteredArray = arr.filter(function (v){
+//         return typeof v=='boolean';
+//      });
+// console.log(filteredArray);
+
+
+
+//FIBONACCI SERIESE ....55 WILL NOT WORKS OUR COMPUTER WILL BE ON HANG
+// function fib(n){
+//     if(n==0|| n==1){
+//         return n;
+//     }
+//     return fib(n-1)+fib(n-2);
+// }
+// console.log(fib(45));
+
+
+
+
+const arr=[
+    {id:1,value:10},
+    {id:2,vlaue:20},
+    {id:3,vlaue:30},
+    {id:4,value:40},
+    {id:5,value:50}
+]
+
+
+
+// const index = arr.findIndex(function(v){
+//     return v.id==4;
+// });
+// arr[index]='totally updated';
+// console.log(arr);
+
+
+const index =  arr.findIndex(function(v){
+    return v.id==4;
+});
+arr[index].value=400;
+console.log(arr);
