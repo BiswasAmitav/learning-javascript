@@ -55,9 +55,15 @@
 // console.log(date.getDay());
 
 
-let currentDay=new Date().getDay();
 
-console.log("your date number is: " +currentDay);
+
+// let currentDay=new Date().getDay();
+
+// console.log("your date number is: " +currentDay);
+
+
+
+
 
 // if(currentDay==0){
 //     console.log('Sunday');
@@ -77,35 +83,138 @@ console.log("your date number is: " +currentDay);
 //     console.log('Please Enter a Valid Date');
 // }
 
-switch(currentDay){
-    case 0:
-        console.log('Sunday');
-        break;
 
-    case 1:
-        console.log('Monday');  
-        break;
 
-    case 2:
-        console.log('Tuesday');
-        break;   
 
-    case 3: 
-        console.log('Wednesday');
-        break;
+// switch(currentDay){
+//     case 0:
+//         console.log('Sunday');
+//         break;
+
+//     case 1:
+//         console.log('Monday');  
+//         break;
+
+//     case 2:
+//         console.log('Tuesday');
+//         break;   
+
+//     case 3: 
+//         console.log('Wednesday');
+//         break;
         
-    case 4: 
-        console.log('Thursday');
-        break;
+//     case 4: 
+//         console.log('Thursday');
+//         break;
         
-    case 5:
-        console.log('Friday');
-        break;
+//     case 5:
+//         console.log('Friday');
+//         break;
         
-    case 6: 
-        console.log('Saturday');
-        break;
+//     case 6: 
+//         console.log('Saturday');
+//         break;
         
-    default:
-        console.log('Please enter a valid number');    
-}
+//     default:
+//         console.log('Please enter a valid number');    
+// }
+
+
+
+
+// let arr=['apple', 'banana', 'orange', 'mango','jackfruits'];
+
+// for (let i=0;i<arr.length;i++){
+//     console.log(arr[i]);
+// }
+
+
+
+
+// function sayHello(user){
+//     if(user='undefined'){
+//         // console.log('Hello amitav');
+//         user='Amitav'
+//     }
+//     console.log('Hello '+user);
+// }
+// sayHello('Setu');
+
+
+
+
+// BY using another method.....
+
+// function sayHello(user='john doe'){
+//     console.log('Hello' +user);
+// }
+// sayHello('Setu');
+
+
+
+
+// function sayHello(user){
+//     console.log('Hello' +user);
+// }
+// sayHello('Setu');//first instance....
+// sayHello('John');//second instance.....
+
+
+
+
+// function adder(num1,num2){
+//     console.log(num1+num2);
+// }
+// adder(2,3);
+
+
+
+// function adder(num1,num2){
+//     // console.log(num1+num2);
+//     return num1+num2
+// }
+// var result=adder(20,30);
+// console.log(result);
+
+
+
+
+
+// function adder(num1,num2){
+//     num1+num2;
+//     return [1,2,3];
+// }
+
+// let result=adder(2,4);
+// console.log(result);
+
+
+
+
+//===============================
+//PARAMETER AS FUNCTION...
+
+
+// function girlsPoint(firstGirl,secondGirl,thirdGirl){
+//     return firstGirl+secondGirl+thirdGirl;
+// }
+// girlsPoint(30,32,34);
+
+// function boysPoint(firstBoy,secondBoy,thirdBoy){
+//     return firstBoy+secondBoy+thirdBoy;
+// }
+// boysPoint(42,25,34);
+
+
+// function boysAndGirlsTotalPoints(girls,boy){
+//     return girls+boy;
+// }
+
+// var result=boysAndGirlsTotalPoints(girlsPoint,boysPoint);
+// console.log(result);
+
+
+
+
+
+//ARROW FUNCTION
