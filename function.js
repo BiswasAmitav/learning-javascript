@@ -218,3 +218,32 @@
 
 
 //ARROW FUNCTION
+// let sayHello =(name) =>{
+//     console.log(name);
+// }
+
+
+
+// let sayHello = (name) =>{
+//     return name;
+// }
+// sayHello('amit');
+
+
+
+
+// let sayHello = (num1,num2) =>{
+//     return num1+num2;
+// }
+// var ans=sayHello(2,3);
+// console.log(ans);
+
+
+//BY SHORTCUT METHOD ....
+
+let adder=(num1,num2)=>num1+num2;
+
+var result=adder(4,1);
+var result1=adder(4,6);
+
+console.log(result,result1);
