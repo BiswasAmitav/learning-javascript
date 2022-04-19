@@ -30,14 +30,53 @@
 
 
 
+// let singlePerson={
+//     name:'Amitav Biswas',
+//     address:'Manikgong',
+//     age:22,
+//     sayHello:function(){
+//         console.log('Hi, '+this.name);//If we use this.() ...method name ...it is the dynamic approach... bcz it will call it self..
+//     },
+//     country:'Bnagladesh'
+// };
+
+// console.log(singlePerson);
+
+
+
+
+
+//ALTERNATE WAY.....
+
+// let person='address';
+
+// let singlePerson={
+//     name:'Amitav Biswas',
+//     address:'Manikgong',
+//     age:22,
+//     sayHello:function(){
+//         console.log('Hi, '+singlePerson.name);//in this line i called the previous method ....but it is not dynamic approach...
+//     },
+//     country:'Bnagladesh'
+// };
+
+// console.log(singlePerson);
+
+
+
+
+
+let person='address';
+
 let singlePerson={
     name:'Amitav Biswas',
     address:'Manikgong',
     age:22,
     sayHello:function(){
-        console.log('Hi, '+this.name);
+        console.log('Hi, '+singlePerson.name);//in this line i called the previous method ....but it is not dynamic approach...
     },
     country:'Bnagladesh'
 };
 
-console.log(singlePerson);
+console.log(singlePerson.person);//here if we write something.property it will show give u the undefined ...
+console.log(singlePerson[person]); //it will print the MANIKGONG ....
