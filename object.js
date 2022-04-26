@@ -65,7 +65,7 @@
 
 
 
-
+/*
 let person='address';
 
 let singlePerson={
@@ -78,5 +78,22 @@ let singlePerson={
     country:'Bnagladesh'
 };
 
-console.log(singlePerson.person);//here if we write something.property it will show give u the undefined ...
+// console.log(singlePerson.person);//here if we write something.property it will show give u the undefined ...
 console.log(singlePerson[person]); //it will print the MANIKGONG ....
+
+*/
+
+
+let person='sayHello';
+
+let persons=['saidur Rahman Setu','John Doe'];
+
+let singlePerson={
+    name:'Saidur Rahman Setu',
+    address:'manikgonj',
+    sayHello:function(){
+        console.log('Hello'+ this.name);
+    }
+}
+
+console.log(singlePerson[person]());//here it is printing the inside object properties.....
