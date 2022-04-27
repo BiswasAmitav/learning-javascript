@@ -105,7 +105,7 @@ console.log(singlePerson[person]());//here it is printing the inside object prop
 
 
 
-let obj={
+let obj={  //HOW TO ACCES NESTED OBJECT AND ITS PROPERTY......
     name:'Amitav Biswas',
     skills:{
         frontend:['HTML','CSS','BOOTSTRAP'],
@@ -121,4 +121,21 @@ let obj={
     },
 }
 
-console.log(obj.skills.backend[2]);
+let result=obj.calc(2,3);
+console.log(result);
+// console.log(obj.skills.backend[2]);
+
+
+//HOW TO ACCESS ELEMENT BY DOTT. AND [] BRACKET.....
+
+// console.log(obj.skills['frontend']);
+console.log(obj['skills'].frontend);
+
+
+
+
+
+
+//HOW TO ADD ARRAY AND OBJECT INSIDE THE OBJECT FROM OUTSIDE.....
+obj.interest=['youtubing','googling'];
+console.log(obj);
