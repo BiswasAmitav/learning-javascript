@@ -84,6 +84,9 @@ console.log(singlePerson[person]); //it will print the MANIKGONG ....
 */
 
 
+
+
+/*
 let person='sayHello';
 
 let persons=['saidur Rahman Setu','John Doe'];
@@ -97,3 +100,25 @@ let singlePerson={
 }
 
 console.log(singlePerson[person]());//here it is printing the inside object properties.....
+*/
+
+
+
+
+let obj={
+    name:'Amitav Biswas',
+    skills:{
+        frontend:['HTML','CSS','BOOTSTRAP'],
+        backend:['php','nodejs','django'],
+    },
+
+    address:{
+        city:'manikgonj',
+        country:'Bangladesh'
+    },
+    calc:function(a,b){
+        return a+b;
+    },
+}
+
+console.log(obj.skills.backend[2]);
