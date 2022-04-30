@@ -11,3 +11,5 @@ function Person(name, address){
 
 let person1=new Person('Amitav Biswas','Satkhira');
 let person2=new Person('Shimanta Kar Uthsha', 'Tangail');
+
+console.log(person1);
