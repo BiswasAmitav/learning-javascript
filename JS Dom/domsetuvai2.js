@@ -21,9 +21,9 @@ const form=document.querySelector('form');
 // result.innerText=inputs[0].value;
 
 
-form.addEventListener('submit',function (e){
-    e.preventDefault();
-    result.innerText=inputs[0].value;
-    result.style.color=inputs[3].value;
-});
+// form.addEventListener('submit',function (e){
+//     e.preventDefault();
+//     result.innerText=inputs[0].value;
+//     result.style.color=inputs[3].value;
+// });
 
