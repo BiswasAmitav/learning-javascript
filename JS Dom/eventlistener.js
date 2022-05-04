@@ -67,20 +67,51 @@ THIRD OBJECT....ONCE:1;
 once: true;
 */
 
-grand.addEventListener('click',(e)=>{
+// grand.addEventListener('click',(e)=>{
+//     console.log('I am grand');
+// },
+// {once:true}
+// );
+
+// chacha.addEventListener('click',(e)=>{
+//     console.log('I am chacha');
+// },
+// {capture:true}
+// );
+
+// bhai.addEventListener('click',(e)=>{
+//     console.log('I am bhai');
+// },
+// {capture:true}
+// );
+
+
+
+
+
+
+
+grand.addEventListener('click',say);
+
+setTimeout(function(){
+    grand.removeEventListener('click',say);
+},
+2000);
+
+
+
+function say(){
     console.log('I am grand');
-},
-{once:true}
-);
+};
 
-chacha.addEventListener('click',(e)=>{
-    console.log('I am chacha');
-},
-{capture:true}
-);
+// chacha.addEventListener('click',e =>{
+//     console.log('I am chacha');
+// },
+// {capture:false}
+// );
 
-bhai.addEventListener('click',(e)=>{
-    console.log('I am bhai');
-},
-{capture:true}
-);
+// bhai.addEventListener('click',e =>{
+//     console.log('I am bhai');
+// },
+// {capture:false}
+// );
