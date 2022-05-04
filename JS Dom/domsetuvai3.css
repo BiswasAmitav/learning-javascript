@@ -1,3 +1,8 @@
+
+/*
+
+DESING FOR TO DO APP==============================
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +11,7 @@
 
 body {
 
-    /* background-color: ; */
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,9 +30,6 @@ h2{
 section {
     text-align: center;
     background-image: linear-gradient(to right top, #4eb4eb, #55b1ec, #5daeed, #66aaed, #6fa7ed, #67aef3, #5fb4f8, #56bbfc, #37cdff, #24ddff, #39edfb, #5ffbf1);
-    /* display: flex;
-    flex-direction: column; */
-    margin: auto;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -99,10 +101,18 @@ li:hover{
     padding: 10px;
     color:white;
     background-color:#56e6ff86;
-    /* background-image: linear-gradient(to right top, #4eb4eb, #55b1ec, #5daeed, #66aaed, #6fa7ed, #67aef3, #5fb4f8, #56bbfc, #37cdff, #24ddff, #39edfb, #5ffbf1); */
     margin:10px 0px 10px 0px;
     border-left:2px solid white;
     border-right:2px solid white;
     border-radius: 6px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(100, 100, 100, 0.24);
 }
+
+
+*/
+
+
+
+
+
+
