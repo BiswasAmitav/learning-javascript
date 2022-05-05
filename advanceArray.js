@@ -115,4 +115,27 @@ const characters=[
 
 
 
-//FILTER HOW TO USE ARRAY FILTER 
+//FILTER HOW TO USE ARRAY FILTER.......
+
+// let onlyMale=characters.filter((char)=>{
+//     return char.gender==='male';
+// });
+
+
+// let greaterThan100=characters.filter((char)=>{
+//     return char.mass>50;
+// });
+
+// console.log(greaterThan100);
+
+
+//EVERY FUNCTION===========
+
+
+let nums=[2,4,6,8,9];
+
+let isEven=nums.some((num)=>{
+    return num%2==0;
+});
+
+console.log(isEven);
