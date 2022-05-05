@@ -14,7 +14,7 @@
 
 // ON javascript we can take all kinds of datatype....
 
-let arr =['amitav', 'protap','ambika','sangita','Mumu','rahul'];
+// let arr =['amitav', 'protap','ambika','sangita','Mumu','rahul'];
 
 // arr.pop();
 console.log(arr);
