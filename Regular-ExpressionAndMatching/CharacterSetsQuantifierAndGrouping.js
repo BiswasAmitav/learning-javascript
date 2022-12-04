@@ -9,6 +9,11 @@ re=/[0-9]ello/;// with a digit and range is already given .
 re=/^[0-9]ello/;// Start with a digit and range is already given
 re=/[^0-9]ello/;//Can't start with a digit.
 re=/[0-9][0-9]ello/;//It check two digit .
+re=/[0-9][0-9][0-9][0-9][0-9]ello/;//It check five digit.
+
+//PARENTHESES OR GROUPING..
+
+re=/^([0-9]){5}/;//It also checks the 5 digits but it avoid to write same thing multiple times ..
 
 
 str="heillo";
@@ -19,6 +24,21 @@ str="helllo";
 str="Hello";
 str="Again 1ello";
 str="26ello";
+
+
+//Braces {} - Quantifier...
+//Quantifier shows how many character how many times would be there. 
+
+re = /hello/;//   /hel{2}o/ = /hello/..it specifies that l is present two times here.
+re=/hel{3}o/;// lll = should be present 3 times..
+re=/hel{2,5}o/;// llllll L should be present minimum 2 times and max 5 times.
+re=/hel{2,}/; // at least L should be present 2 times and max infinity times ..
+re=/^
+
+
+str="helllo";
+str="helllllo";
+str="hlo"
 
 console.log(re.exec(str));
 
