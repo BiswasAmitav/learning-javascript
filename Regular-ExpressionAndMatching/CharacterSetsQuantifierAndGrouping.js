@@ -33,7 +33,7 @@ re = /hello/;//   /hel{2}o/ = /hello/..it specifies that l is present two times 
 re=/hel{3}o/;// lll = should be present 3 times..
 re=/hel{2,5}o/;// llllll L should be present minimum 2 times and max 5 times.
 re=/hel{2,}/; // at least L should be present 2 times and max infinity times ..
-re=/^
+
 
 
 str="helllo";
